@@ -1,0 +1,844 @@
+   /* font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Raleway', sans-serif;*/
+*{
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	background-color: #000;
+	padding: 10px 0px;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	background: rgba(0,0,0,0.6);
+}
+.nav-link{
+	color: #b0b0b0 !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.nav-link:hover{
+	color: #fff !important;
+}
+.banner{
+	width: 100%;
+	background-image: url('../img/Axit PSD.png');
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.banner-text{
+	height: 90vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner-text h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	color: #fff;
+	margin: 32px 0;
+
+}
+.banner-text .line{
+	height: 2px;
+	width: 80px;
+	background-color: white;
+
+}
+.banner-text p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: #b0b0b0;
+	margin: 24px 0px;
+
+}
+.banner-text button{
+	padding: 12px 25px;
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+}
+.banner-text button:hover{
+	background: white;
+	color: black; 
+}
+.banner-form{
+	height: 90vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.card{
+	border: none;
+}
+.card-header h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+
+}
+.card-header h2 span{
+	color: #ff9b51;
+	text-transform: uppercase;
+	padding: 0px;
+
+
+}
+.card-body{
+	padding: 1rem 2rem !important;
+}
+.card-body input{
+	width: 100%;
+	margin: 15px 0px;
+	border: none;
+	border-bottom: 1px solid color: #cccccc;
+	padding-bottom: 6px;
+	padding-left: 12px;
+
+}
+.card-body input:focus{
+	outline: none;
+}
+.card-body input::placeholder{
+	color: #cccccc;
+}
+.card-header{
+	padding: 1.5rem 1rem;
+}
+.card-footer{
+	padding: 0;
+
+}
+.card-footer input{
+	width: 100%;
+	height: 60px;
+	border: none;
+	background: transparent;
+	background: #ff9b51;
+	color: white;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	
+}
+.banner-form .card-body .lol{
+	margin-bottom: 32px;
+
+
+}
+
+.card-footer input:focus{
+	outline: none;
+}
+
+.naruto{
+	width: 100%;
+	    padding-top: 20px;
+    box-shadow: 0px 3px 3px 3px rgba(0,0,0,0.2);
+    background: 
+
+}
+
+.naruto h3{
+	font-family: 'Open Sans', sans-serif;
+color: #333333;
+font-weight: 700;
+
+}
+
+
+ 
+.naruto p{
+	font-family: 'Open Sans', sans-serif;
+ color: #cccccc;
+}
+
+.turu ul li{
+	display: inline-block;
+list-style: none;
+margin-left: 45px;
+font-size: 40px;
+padding-top: 10px;
+}
+
+.service{
+	width: 100%;
+	padding: 60px 0px;
+	background: #f5f5f5;
+}
+
+.service ul li{
+	list-style: none;
+	height: 90px;
+	width: 106px;
+	line-height: 90px;
+	background: #333333;
+	text-align: center;
+	margin-bottom: 2px;
+	color: white;
+
+}
+
+
+
+
+.service ul li a{
+	color: white;
+	
+}
+
+.tab-1{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+
+}
+
+
+.tab-3{
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+
+}
+
+
+.service h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+
+}
+
+.service p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: #b0b0b0;
+	margin: 24px 0px;
+
+}
+
+.service button{
+	padding: 12px 25px;
+	background: #ff8b38;
+	border: 1px solid white;
+	color: white;
+
+}
+
+.service button:focus{
+	outline: none;
+}
+
+.tab-1{
+	background:#ff8b38!important;
+}
+
+
+.speed{
+	width: 100%;
+	margin-top: 70px;
+
+}
+
+.speed .love h3{
+	font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+}
+
+
+.speed .line-2{
+	border-bottom: 2px solid #fe8d3a;
+	width: 12%;
+margin-top: 30px;
+
+
+
+}
+.speed p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color:#c3c3c5;
+}
+
+
+
+
+.colu h5{
+	font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+}
+.colu p{
+	margin-top: 0px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.molu h5{
+	font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+}
+.molu p{
+	margin-top: 0px;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.mal{
+	width: 100%;
+background-color: #f5f5f5;
+padding: 70px 0px;
+}
+
+.mal h5{
+	    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+.line-3{
+	border-bottom: 2px solid #fe8d3a;
+width: 12%;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.paulo{
+	padding-left: 30px;
+}
+
+.paulo p{
+	    font-family: 'Open Sans', sans-serif;
+    color: #86878b;
+
+}
+.nolu{
+	    width: 100%;
+    background-color: #f5f5f5;
+    padding: 70px 0px;
+
+}
+
+.kang{
+	width: 100%;
+margin-top: 100px;
+}
+
+
+.kang h1{
+	font-family: 'Raleway', sans-serif!important;
+    font-size: 36px;
+    color: #212121;
+    text-align: center;
+}
+.mine{
+	border-bottom: 2px solid #fe8d3a;
+width: 12%;
+margin: 30px auto;
+}
+
+.mallu p{
+	font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+color: #a2a3a6;
+text-align: center;
+margin-bottom: 200px;
+}
+
+.nala{
+	
+	text-align: center;
+}
+
+.nala img{
+	margin-left: 80px;
+}
+
+.nala h4{
+	    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+    margin: 30px;
+    margin-left: 110px;
+
+
+}
+
+.nala p{
+	font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+line-height: 21px;
+color: #86878b;
+margin-left: 110px;
+}
+
+
+.nol{
+	
+	text-align: center;
+}
+
+
+
+.nol h4{
+	    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+    margin: 30px;
+    margin-left: 110px;
+
+
+}
+
+.nol p{
+	font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+line-height: 21px;
+color: #86878b;
+margin-left: 110px;
+}
+
+.kol{
+	
+	text-align: center;
+}
+
+.kol img{
+	margin-left: 80px;
+}
+
+
+
+
+.kol h4{
+	    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+    margin: 30px;
+    margin-left: 110px;
+
+
+}
+
+.kol p{
+	font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+line-height: 21px;
+color: #86878b;
+margin-left: 110px;
+}
+
+.price{
+	width: 100%;
+	padding: 70px 0px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.calender{
+	width: 100%;
+margin-top: 70px;
+}
+
+
+.calender h1{
+	font-family: 'Raleway', sans-serif!important;
+    font-size: 36px;
+    color: #212121;
+    text-align: center;
+}
+.tera{
+	border-bottom: 2px solid #fe8d3a;
+width: 12%;
+margin: 30px auto;
+}
+
+.price p{
+	font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+color: #a2a3a6;
+text-align: center;
+margin-bottom: 75px;
+}
+.bala{
+	width: 100%;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+
+.table-1 .basic , .table-1 .cat-body{
+	background-color: #333333;
+}
+
+.table-1{
+	margin: 0px 20px;
+}
+
+.services{
+	background-color: white;
+
+}
+
+.basic{
+	padding: 10px 0px;
+	border-bottom: 1px solid white;
+}
+.basic p{
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+
+}
+
+.cat-body{
+	padding: 30px 0px;
+	border-bottom: 5px solid #ff8b38;
+}
+
+.cat-body h1{
+	color:white;
+	font-family: 'Raleway', sans-serif!important;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.cat-body h1 span {
+	font-size: 70px;
+}
+
+.cat-body p{
+	color:#999999;
+	margin-bottom: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.services ul{
+	padding: 0;
+}
+
+.services ul li{
+	list-style: none;
+	border-bottom:  1px solid #f3f3f3;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	color:#999999;
+}
+
+.middle .cat-body{
+	border: none;
+	padding: 0;
+}
+
+.special{
+	padding: 20px 0px;
+}
+
+.popular{
+	background-color: #ff8038;
+	padding: 12px 0px;
+}
+.popular p{
+	margin:  0!important;
+	font-style: normal!important;
+	color: #fff !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.bala .row{
+	align-items: flex-end;
+}
+
+.bala{
+	width: 100%;
+	padding: 70px 0px;
+}
+
+
+
+.test{
+	width: 100%;
+	padding: 70px 0px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.test p{
+	font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+color: #a2a3a6;
+text-align: center;
+margin-bottom: 75px;
+}
+
+.fard{
+	width: 100%;
+margin-top: 70px;
+}
+
+
+.fard h1{
+	font-family: 'Raleway', sans-serif!important;
+    font-size: 36px;
+    color: #212121;
+    text-align: center;
+}
+.mera{
+	border-bottom: 2px solid #fe8d3a;
+width: 12%;
+margin: 30px auto;
+}
+
+.message{
+	background: #f5f5f5;
+	color:black;
+	font-style: italic;
+	margin: 0px 20px;
+	padding: 20px;
+	text-align: left;
+	border-radius: 3px;
+	position: relative;
+	
+
+}
+
+.message .corner{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	background: #f5f5f5;
+	bottom: -13px;
+	left: 30px;
+	transform: rotate(45deg);
+}
+
+.user{
+	margin-top: 30px;
+}
+
+.user .col-md-4{
+	padding-right: 0;
+
+}
+
+.user .col-md-8{
+	padding-left: 0;
+	text-align: left;
+
+}
+
+
+
+
+.karma{
+	width: 100%;
+	background-image: url('../img/kj.png');
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 44vh;
+}
+.karma-text{
+	height: 44vh;
+	
+	text-align: center;
+}
+.karma-text h2{
+	font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 36px;
+color: #fff;
+text-transform: uppercase;
+
+}
+.line-7{
+	width: 90px;
+height: 2px;
+background: #fff;
+margin: 30px auto;
+}
+
+.karma-text p{
+	    color: #86878b !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300 !important;
+}
+.karma-text button{
+
+background: transparent;
+padding: 7px 15px;
+border: 1px solid #fff;
+color: #fff;
+} 
+
+
+
+
+
+
+
+.malma{
+	width: 100%;
+	padding: 70px 0px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.malma p{
+	color: #86878b !important;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 300 !important;
+margin-bottom: 60px;
+}
+
+.tal{
+	width: 100%;
+margin-top: 70px;
+}
+
+
+.tal h1{
+	font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 36px;
+color: #212121;
+text-transform: uppercase;
+}
+.cala{
+	border-bottom: 2px solid #fe8d3a;
+width: 12%;
+margin: 30px auto;
+}
+
+.lolo{
+	width: 100%;
+padding: 60px 0;
+box-sizing: border-box;
+}
+
+
+.company{
+	padding-top: 60px;
+	height: 319px;
+	padding-bottom: 60px;
+	
+	text-align: center;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+.input-0{
+	width: 100%;
+	padding: 17px;
+	background: transparent;
+	border: 1px solid black;
+	margin: 8px;
+	border:none;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom:  1px solid black;
+
+
+}
+.input-0:focus{
+	outline: none;
+}
+.input-4{
+	width: 100%;
+	padding: 17px;
+	background: transparent;
+	border: 3px solid black;
+	margin: 8px;
+	border:none;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom:  1px solid black;
+	
+	
+
+}
+
+.input-4:focus{
+	outline: none;
+}
+.input-5{
+	width: 100%;
+	padding: 17px;
+	background: transparent;
+	border: 1px solid black;
+	margin: 8px;
+	border:none;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom:  1px solid black;
+}
+
+.input-5:focus{
+	outline: none;
+}
+
+textarea {
+        color: #ececec;
+    width: 92.5%;
+    padding: 42px;
+    height: 218px;
+    margin-bottom: 29px;
+    background: transparent;
+    border: 3px solid black;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-bottom: 1px solid black;
+
+   }
+
+   textarea:focus{
+   	outline: none;
+   }
+.batla button{
+	
+background: #ff9b51;
+padding: 7px 15px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+font-size: 15px;
+border: 1px solid #fff;
+
+color: #fff;
+border-radius: 3px;
+}
+
+.batla button:focus{
+	outline: none;
+}
+
+.footer{
+	width: 100%;
+background-color: #000;
+padding: 10px 0;
+}
+
+.footer p{
+	    text-align: center;
+    color: #ccc;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+} 
+
+
+
+
+
